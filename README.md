@@ -1,9 +1,9 @@
 This is a simple example project for demonstrating Java 9 services. There are several providers which implement the Greeter interface.
 
-## Compilie
+## Compile
 
 ``` Java
-javac --module-source-path src -d out $(find . -name *.java)
+javac --module-source-path src -d out $(find . -name "*.java")
 ```
 
 ## Run
