@@ -11,3 +11,9 @@ javac --module-source-path src -d out $(find . -name "*.java")
 ``` Java
 java --module-path out -m greeter.cli/greeter.cli.Main
 ```
+
+### Modularity
+
+* strong encapsulation
+* well-defined interfaces
+* explicit depnendencies
